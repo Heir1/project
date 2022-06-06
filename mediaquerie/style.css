@@ -1,0 +1,268 @@
+@media only screen and (min-width: 1250px) {
+    *{
+        margin: 0;
+    }
+    
+    /*.top{
+        padding: 30px 30px 500px 30px;
+    }*/
+    
+    .header{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 400px;
+        background-image: url(desktop/image-header.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        padding: 50px;
+        color: white;
+    }
+
+    .mobile{
+        visibility: hidden;
+        height: 0px;
+    }
+    
+    h1{
+        padding-right: 100px;
+        padding-top: 40px;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    #nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    ul{
+        list-style-type: none;
+    }
+    
+    li{
+        padding: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /*a:hover{
+        background-color: cornflowerblue;
+        padding: 10px 20px;
+        border-radius: 40%;
+    }*/
+    
+    .contact{
+        padding: 15px 20px;
+        background-color: white; 
+        color: black;
+        font-weight: bold;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    
+    .contact:hover{
+        background-color: #71cdf4;
+        color: white;
+    }
+    
+    
+    /*.content{
+        display: flex;
+        grid-template-columns: 640px 640px;
+    }*/
+    
+    .premier{
+        display: flex;
+    }
+    
+    .deuxieme{
+        display: flex;
+    }
+    
+    .itemtext{
+        width: 50%;
+        height: 600px;
+    }
+    
+    .itemimage{
+        background-image: url(desktop/image-transform.jpg);
+        width: 50%;
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    
+    .itemtext1{
+        width: 50%;
+        height: 600px;
+    }
+    
+    .itemimage1{
+        background-image: url(desktop/image-stand-out.jpg);
+        width: 50%;
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    
+    .itemimage2{
+        background-image: url(desktop/image-graphic-design.jpg);
+        width: 50%;
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    
+    .itemimage3{
+        background-image: url(desktop/image-photography.jpg);
+        width: 50%;
+        height: 600px;
+        background-size: 100% 100%;
+    }
+    
+    .ptext{
+        padding: 20px 135px 50px 135px;
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .ptestimon{
+        padding: 20px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .htext{
+        padding-top: 150px;
+        padding-left: 135px;
+        font-size: 40px;
+    }
+    
+    .testimonial{
+        width: 1000px;
+    }
+    
+    .client{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        width: 30%;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    h3{
+        font-weight: bold;
+        padding-left: 140px;
+    }
+    
+    .testimonial{
+        padding: 100px;
+    }
+    
+    .alsoviewed{
+        display: flex;
+    }
+    
+    .alsoviewed1{
+        background-image: url(desktop/image-gallery-milkbottles.jpg);
+        width: 25%;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    
+    .alsoviewed2{
+        background-image: url(desktop/image-gallery-orange.jpg);
+        width: 25%;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    
+    .alsoviewed3{
+        background-image: url(desktop/image-gallery-cone.jpg);
+        width: 25%;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    
+    .alsoviewed4{
+        background-image: url(desktop/image-gallery-sugarcubes.jpg);
+        width: 25%;
+        height: 300px;
+        background-size: 100% 100%;
+    }
+    
+    .footer{
+        background-color: #95d5c6;
+        height: 300px;
+        padding: 50px 200px 50px 200px;
+    }
+    
+    #logofooter{
+        text-align: center;
+    }
+    
+    
+    #services{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #icons{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #icon1:hover{
+        color: white;
+        cursor: pointer;
+    }
+    
+    #icon2:hover{
+        color: white;
+        cursor: pointer;
+    }
+    
+    #icon3:hover{
+        color: white;
+        cursor: pointer;
+    }
+    
+    #icon4:hover{
+        color: white;
+        cursor: pointer;
+    }
+    
+    .last1:hover{
+        text-decoration: underline solid 10px yellow;
+        cursor: pointer;
+    }
+    
+    .last2:hover{
+        text-decoration: underline solid 10px red;
+        cursor: pointer;
+    }
+
+    .mobtoggle{
+        visibility: hidden;
+    }
+    
+}
+
+

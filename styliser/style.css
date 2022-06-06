@@ -1,0 +1,85 @@
+body{
+    background-color : #c5c4c4;
+}
+
+.container{
+    margin : 100px;
+}
+
+p{
+    font-family : arial;
+}
+
+h1{
+    text-align: center;
+    font-size : 100px;
+    
+}
+
+a{
+    color : red;
+    font-weight : bold;
+}
+
+h2{
+    color: red;
+    font-size : 30px;
+}
+
+th{
+    background-color : #383535;
+    padding : 10px; 
+    color : white;  
+}
+
+td{
+    padding : 10px;
+    border-style:none;
+}
+
+.impaire{
+    background-color: rgb(229, 229, 229);
+    color: black;
+}
+
+.impaire:hover{
+    background-color: #8b8989;
+    cursor : pointer;
+}
+
+.annee{
+    font-weight: bold;
+}
+
+table{
+    border-spacing : 0px;
+}
+
+img{
+    border-radius : 1%;
+    width : 95%;
+    margin-top : 30px;
+}
+
+.ordinateur{
+    margin-top : 20px;
+    background-color : #343232;
+    text-align : center;
+    height : 60%;
+    color : white;
+    font-size : 20px;
+    font-style : italic;
+    border-radius : 1%;
+    border : 3px solid red;
+    overflow : hidden;
+}
+
+.preretrait{
+    margin-left : 30px;
+    padding : 30px;
+    border-style : dashed;
+    color : blue;
+    background-color: #b5b5b5;
+    font-size : 20px;
+    line-height : 30px;
+}
