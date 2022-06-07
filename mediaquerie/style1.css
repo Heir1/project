@@ -11,6 +11,21 @@
         color: white;
     }
 
+    .fleche{
+        height: 125px;
+        margin-left: 43%;
+        margin-top: 45px;
+        background-image : url(icon-arrow-down.svg);
+        background-repeat: no-repeat;
+        width: 50px;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+
+    .fas{
+        margin-left: 160px;
+    }
+
     .mobli{
         width: 200px;
     }
@@ -31,7 +46,7 @@
     }
 
     #title{
-        margin-top: 100px;
+        margin-top: 40px;
     }
 
     #nav{

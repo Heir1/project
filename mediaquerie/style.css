@@ -17,6 +17,18 @@
         background-position: center;
         padding: 50px;
         color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .fleche{
+        height: 120px;
+        margin-left: 210px;
+        background-image : url(icon-arrow-down.svg);
+        background-repeat: no-repeat;
+        width: 50px;
+        background-size: 100% 100%;
+        background-position: center;
     }
 
     .mobile{
@@ -217,16 +229,22 @@
     #logofooter{
         text-align: center;
     }
+
+    .logofooter{
+        fill: red;
+    }
     
     
     #services{
         display: flex;
         justify-content: center;
+        margin-left: -40px;
     }
     
     #icons{
         display: flex;
         justify-content: center;
+        margin-left: -40px;
     }
     
     #icon1:hover{
